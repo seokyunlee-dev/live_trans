@@ -30,3 +30,9 @@ android {
         jvmTarget = "17"
     }
 }
+
+dependencies {
+    implementation("com.alphacephei:vosk-android:0.3.75")
+    implementation("net.java.dev.jna:jna:5.18.1@aar")
+    implementation("com.google.mlkit:translate:17.0.3")
+}
